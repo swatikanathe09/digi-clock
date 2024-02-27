@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    color: inherit;
+}
+
+.clock {
+    text-align: center;
+    background-color: #f0f0f0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 40vh;
+    margin: 0;
+   
+}
+
+.clock h1 {
+    font-size: 3em;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    animation: colorChange 4s infinite alternate;
+    z-index: 1;
+}
+@keyframes colorChange {
+    0% { color: red; }
+    5% { color: orange; }
+    10% { color: yellow; }
+    15% { color: green; }
+    20% { color: blue; }
+    25% { color: indigo; }
+    30% { color: violet; }
+    35% { color: teal; }
+    40% { color: magenta; }
+    45% { color: cyan; }
+    50% { color: pink; }
+    55% { color: gold; }
+    60% { color: silver; }
+    65% { color: brown; }
+    70% { color: lime; }
+    75% { color: aquamarine; }
+    80% { color: lavender; }
+    85% { color: coral; }
+    90% { color: olive; }
+    95% { color: maroon; }
+    100% { color: purple; }
+}
+
+
+
+section {
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('pexels-photo-280277.jpeg') ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.clock {
+    position: absolute;
+    height: 90vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 3px;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.clock p {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    color: #323232;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.clock h2 {
+    width: 100%;
+    letter-spacing: 2px;
+    color: #323232;
+    font-size: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+}
+
+.clock ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: -80px;
+    border-bottom: 2px solid #323232;
+    padding-bottom: 25px;
+}
+
+.clock ul li {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #323232;
+    text-transform: capitalize;
+    font-family: 'Cinzel Decorative', cursive;
+    padding: -30px;
+}
+
+.clock h6 {
+    font-weight: bold;
+    font-size: 5rem;
+    color: #323232;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.clock ol {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.clock ol li {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #323232;
+    text-transform: capitalize;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.clock h3 {
+    width: 100%;
+    letter-spacing: 3px;
+    color: #323232;
+    font-size: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    padding-top: 10px;
+}
